@@ -110,3 +110,7 @@ div.flex-container {
     text-align:center;
     font-size:20px;
 }
+
+rect:hover {
+fill:green;
+border-color: black; flex-grow: 3}
