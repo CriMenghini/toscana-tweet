@@ -1,10 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Topic exploration</title>
+
+  <link rel="stylesheet" type="text/css" href="styletopic.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
+
+  <title>T(wi)scany Topics</title>
+
 </head>
+
 <body>
-hello
+
+<div class="container">
+	<header>
+
+	  <div class="dropdown">
+		<div class="dropbtn">
+
+
+		  <div class="menu"></div>
+		  <div class="menu"></div>
+		  <div class="menu"></div>
+
+
+		</div>
+		<div class="dropdown-content">
+		  <a href="menu/project.html">Progetto</a>
+		  <a href="menu/intro.html">Chi siamo</a>
+		  <a href="menu/collabora.html">Contribuisci!</a>
+		</div>
+	  </div>
+
+	  <h1 class="titolo"> T(wi)scany </h1>
+
+
+	</header>
+
+	<h1 class="page">Argomenti dei tweet </h1>
+
+<div class="flex-container">
+
+	<script language="javascript">
+
+		var w=700;
+		var h=1000;
+
+
+		var svg = d3.select('.flex-container')
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+
+		var divisions = svg.append("div")
+						   .attr('class', 'flex-topic')
+						   .text('ciao clicca  per vedere  topic');
+
+
+	</script>
+
+</div>
+
+
+
+
+
+<footer>Copyright &copy; Team Digitale</footer>
+
+</div>
+
+
+
+
 </body>
 </html>

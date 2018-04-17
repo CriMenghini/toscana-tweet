@@ -1,0 +1,112 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+
+}
+
+header{
+    padding: 8px;
+    height: 80px;
+    background-color: RoyalBlue;
+}
+
+h1.titolo {
+    color: white;
+    vertical-align: middle;
+    font-size:2em;
+}
+
+footer {
+    padding: 0.8em;
+    color: white;
+    background-color: RoyalBlue;
+    clear: left;
+    text-align: center;
+}
+
+
+
+
+.dropbtn {
+    background-color: RoyalBlue;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.dropdown-content {
+    display: none;
+    right: 0;
+    position: absolute;
+    background-color: #3862e0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+        background-color: #78bcff;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        flex-grow: 3;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.menu {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 6px 0;
+
+}
+
+div.flex-container {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    background-color:white;
+    flex-wrap: wrap;
+  align-content: space-between;
+  padding; 20px;}
+
+.flex-topic {
+    background-color:#F0FFFF;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    text-align: center;
+    line-height: normal;
+    font-size: 20px;
+    box-shadow:0 0 4px rgba(0,0,0,0.4);
+}
+
+.flex-topic:hover{
+    background-color: #b0d8ff;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.9);
+    flex-grow: 3;
+}
+
+.page{
+    text-align:center;
+    font-size:20px;
+}

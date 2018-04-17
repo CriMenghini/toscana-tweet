@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="src/style.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <title>T(wi)scany</title>
 
@@ -12,7 +12,7 @@
 
 <div class="container">
 
-<header>
+<header id="myHeader">
 
   <div class="dropdown">
     <div class="dropbtn">
@@ -25,9 +25,11 @@
 
     </div>
     <div class="dropdown-content">
-      <a href="project.html">Progetto</a>
-      <a href="intro.html">Chi siamo</a>
-      <a href="collabora.html">Collabora con noi!</a>
+      <a href="#page1">Progetto</a>
+      <a href="#page2">Obiettivi</a>
+      <a href="#page3">Esplora</a>
+      <a href="#page4">Contribuisci</a>
+      <a href="#page5">Chi siamo</a>
     </div>
   </div>
 
@@ -37,28 +39,82 @@
 </header>
 
 
+  <div class="main">
 
 
-  <div class="flex-container">
-    <div id="flex-argomento">
+      <section id="page1">
 
-      ciao clicca <a href="topic.html">qui</a> per vedere l'analisi dei topic
-
-    </div>
-
-    <div id="flex-utente">
-
-      clicca <a href="users.html">qui</a> per vedere l'analisi di un utente
-
-    </div>
+        <h1 style="color:black">Progetto</h1>
 
 
-    <div id="flex-hashtag">
+        <p style="margin:80px">
 
-      clicca <a href="users.html">qui</a> per vedere l'analisi di un hashtag
+        Ad oggi gran parte degli enti governativi possiedono un account social per comunicare con i cittadini. Pertanto,
+          si prende in considerazione l'idea di costruire una applicazione che monitori, rispetto all'ente stesso,
+          quali sono gli argomenti trattati ad esso relativi, quale sia il sentiment degli utenti e come, nel tempo, la
+          base di utenti interessata all'ente si evolve.
 
-    </div>
+        </p>
+
+
+      </section>
+
+
+  <section id="page2">
+    <h1 style="color:black">Obiettivi</h1>
+
+    <p style="margin:80px">L'applicazione ha come obiettivo principale quello di fornire all'ente governativo un'idea
+      rispetto alle tematiche trattate sui social network. Questo macro obiettivo si suddivide in tre punti precisi:
+
+    <ul style="margin:80px">
+      <li> Identificazione degli argomenti trattati sul social legati all'ente e ciò che lo rappresenta;</li>
+      <li> Analisi del sentimento degli utenti rispetto agli argomenti individuati;</li>
+      <li> Studio degli utenti che twittano sugli argomenti relativi all'ente.</li>
+    </ul>
+    </p>
+  </section>
+
+
+
+  <section id="page3">
+    <h1 style="color:black">Esplora</h1>
+
+    <p style="margin:80px"> Clicca <a href="esplora.html">qui</a> per esplorare l'applicazione! </p>
+  </section>
+
+  <section id="page4">
+    <h1 style="color:black">Contribuisci</h1>
+  </section>
+
+  <section id="page5">
+    <h1 style="color:black">Chi siamo</h1>
+  </section>
 </div>
+
+<ul id="pagination">
+  <li><a href="#page1"></a></li>
+  <li><a href="#page2"></a></li>
+  <li><a href="#page3"></a></li>
+  <li><a href="#page4"></a></li>
+  <li><a href="#page5"></a></li>
+</ul>
+
+<script src="pagination.js"></script>
+  <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
 
 <footer>Copyright &copy; Team Digitale</footer>
 
