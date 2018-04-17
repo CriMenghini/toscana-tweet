@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a2e2e9-5490-4698-997f-1cd3067f7280" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/topic.html" afterPath="$PROJECT_DIR$/app/src/topic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/styletopic.css" afterPath="$PROJECT_DIR$/app/src/styletopic.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/topics.js" afterPath="$PROJECT_DIR$/app/src/topics.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +30,8 @@
       <file leaf-file-name="styletopic.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/styletopic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="84" column="7" lean-forward="false" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="7" />
+            <state relative-caret-position="579">
+              <caret line="114" column="12" lean-forward="false" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -40,8 +40,8 @@
       <file leaf-file-name="topics.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/topics.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="137" column="72" lean-forward="false" selection-start-line="137" selection-start-column="72" selection-end-line="137" selection-end-column="72" />
+            <state relative-caret-position="301">
+              <caret line="110" column="55" lean-forward="false" selection-start-line="110" selection-start-column="55" selection-end-line="110" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -73,6 +73,7 @@
       <find>text</find>
       <find>border</find>
       <find>dataset</find>
+      <find>blue</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,8 +100,8 @@
         <option value="$PROJECT_DIR$/esplora.html" />
         <option value="$PROJECT_DIR$/app/esplora.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/src/styletopic.css" />
         <option value="$PROJECT_DIR$/app/src/topic.html" />
+        <option value="$PROJECT_DIR$/app/src/styletopic.css" />
         <option value="$PROJECT_DIR$/app/src/topics.js" />
       </list>
     </option>
@@ -409,16 +410,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/styletopic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="84" column="7" lean-forward="false" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="7" />
+        <state relative-caret-position="579">
+          <caret line="114" column="12" lean-forward="false" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/topics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="137" column="72" lean-forward="false" selection-start-line="137" selection-start-column="72" selection-end-line="137" selection-end-column="72" />
+        <state relative-caret-position="301">
+          <caret line="110" column="55" lean-forward="false" selection-start-line="110" selection-start-column="55" selection-end-line="110" selection-end-column="55" />
           <folding />
         </state>
       </provider>

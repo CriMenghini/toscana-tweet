@@ -51,9 +51,7 @@ d3.json("../../data/output/topic_squares.json", function(data) {
 
 
 
-        var rect = boxes.attr('width', function (d) {return d.number_tweets;})
-
-                           .attr('height', '180')
+        var rect = boxes.attr('height', '180')
                            .attr('x', function (d,i) {
 
                                 if (i==0){
@@ -103,7 +101,27 @@ d3.json("../../data/output/topic_squares.json", function(data) {
                                         return arrayY[i];}
 
                             })
-                           .attr('fill', "yellow")
+                           .attr('width', function (d,i) {
+                                                if (i==0){
+                                                    return d.number_tweets;}
+                                                else {
+                                                     // creare coordinata x del rettangolo
+                                                     var coordinata = data[i-1].number_tweets + arrayX[i-1] + 10
+
+                                                     // se il valore della coordinata + la lunghezza è > w porta x a 10
+                                                     if (coordinata + data[i-1].number_tweets < w-10){
+
+                                                            if (data[i].number_tweets + arrayX[i] + 10 + data[i].number_tweets > w-10) {
+
+                                                            return w-10-arrayX[i];}
+
+                                                            else {return d.number_tweets;};}
+
+
+
+                                                     else {return d.number_tweets;};};
+                                                })
+                           .attr('fill', "#b3d9ff")
                            .attr("rx", 10)
                            .attr("ry", 10);
 
@@ -137,10 +155,11 @@ d3.json("../../data/output/topic_squares.json", function(data) {
                                      else if (indexRow[i] != indexRow[i-1]) {
                                          heightY[i] = heightY[i-1] + 200
                                          return (heightY[i-1] + 200);};})
-                           .style('font-size', '30px')
+                           .style('font-size', '12px')
                            .attr("font-family", "sans-serif")
-						   .attr("fill", "blue")
+						   .attr("fill", "white")
 						   .attr("transform", "rotate(0)");});
+
 
 
 
