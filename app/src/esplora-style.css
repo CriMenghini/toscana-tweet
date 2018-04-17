@@ -1,21 +1,13 @@
-footer {
-font-family: sans-serif;
- font-size: 1em;
-}
-
-
 div.container {
     width: 100%;
     border: 1px solid gray;
 
 }
 
-header, footer {
-    padding: 2em;
-    color: white;
+header{
+    padding: 8px;
+    height: 80px;
     background-color: RoyalBlue;
-    clear: left;
-    text-align: center;
 }
 
 .sticky {
@@ -24,27 +16,18 @@ header, footer {
   width: 100%;
 }
 
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 10em;
+h1.titolo {
+    color: white;
+    vertical-align: middle;
+    font-size:2em;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul a {
-    text-decoration: none;
-}
-
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 10em;
-    overflow: hidden;
+footer {
+    padding: 0.8em;
+    color: white;
+    background-color: RoyalBlue;
+    clear: left;
+    text-align: center;
 }
 
 
@@ -53,6 +36,7 @@ div.flex-container {
     flex-direction:row;
     justify-content:center;
     background-color:white;
+    padding: 70px;
 }
 
 #flex-argomento {

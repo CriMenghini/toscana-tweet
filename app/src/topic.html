@@ -16,7 +16,7 @@
 <body>
 
 <div class="container">
-	<header>
+	<header id="myHeader">
 
 	  <div class="dropdown">
 		<div class="dropbtn">
@@ -28,11 +28,13 @@
 
 
 		</div>
-		<div class="dropdown-content">
-		  <a href="menu/project.html">Progetto</a>
-		  <a href="menu/intro.html">Chi siamo</a>
-		  <a href="menu/collabora.html">Contribuisci!</a>
-		</div>
+		 <div class="dropdown-content">
+      <a href="../../index.html#page1">Progetto</a>
+      <a href="../../index.html#page2">Obiettivi</a>
+      <a href="../../index.html#page3">Esplora</a>
+      <a href="../../index.html#page4">Contribuisci</a>
+      <a href="../../index.html#page5">Chi siamo</a>
+    </div>
 	  </div>
 
 	  <h1 class="titolo"> T(wi)scany </h1>
@@ -47,6 +49,20 @@
 
 </div>
 
+	<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 
 <footer>Copyright &copy; Team Digitale</footer>
 

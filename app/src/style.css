@@ -1,27 +1,33 @@
-footer {
-font-family: sans-serif;
- font-size: 1em;
-}
-
-
 div.container {
     width: 100%;
     border: 1px solid gray;
 
 }
 
-header, footer {
-    padding: 2em;
-    color: white;
+header{
+    padding: 8px;
+    height: 80px;
     background-color: RoyalBlue;
-    clear: left;
-    text-align: center;
 }
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+h1.titolo {
+    color: white;
+    vertical-align: middle;
+    font-size:2em;
+}
+
+footer {
+    padding: 0.8em;
+    color: white;
+    background-color: RoyalBlue;
+    clear: left;
+    text-align: center;
 }
 
 nav {
