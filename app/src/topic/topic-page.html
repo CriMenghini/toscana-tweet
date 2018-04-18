@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style-page.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>T(wi)scany</title>
+
+</head>
+<body>
+
+
+<div class="container">
+
+<header id="myHeader">
+
+  <div class="dropdown">
+    <div class="dropbtn">
+
+
+      <div class="menu"></div>
+      <div class="menu"></div>
+      <div class="menu"></div>
+
+
+    </div>
+    <div class="dropdown-content">
+      <a href="../../index.html#page1">Progetto</a>
+      <a href="../../index.html#page2">Obiettivi</a>
+      <a href="../../index.html#page3">Esplora</a>
+      <a href="../../index.html#page4">Contribuisci</a>
+      <a href="../../index.html#page5">Chi siamo</a>
+    </div>
+  </div>
+
+  <h1 style="font-family: sans-serif; font-size: 2em; color: white;"> T(wi)scany </h1>
+
+
+</header>
+
+<div class="sidenav">
+
+</div>
+
+  <div class="main">
+
+
+      <section id="page1">
+
+        <h1 style="color:pink">Sentiment Anlysis</h1>
+
+
+        <p style="margin:80px">
+
+        <script src="viz-sentiment.js"></script>
+
+        </p>
+
+
+      </section>
+
+
+  <section id="page2">
+    <h1 style="color:black">Top 10 retweets</h1>
+
+
+		<script src="viz-RT.js"></script>
+
+  </section>
+
+
+
+  <section id="page3">
+    <h1 style="color:black">Top 10 users</h1>
+
+		<script src="viz-user.js"></script>
+
+  </section>
+
+  <section id="page4">
+    <h1 style="color:black">Lingua</h1>
+	  <script src="viz-lang.js"></script>
+  </section>
+
+  <section id="page5">
+    <h1 style="color:black">Serie temporale numero di tweet</h1>
+	  <script src="viz-TS.js"></script>
+  </section>
+</div>
+
+
+
+
+
+
+
+
+
+<ul id="pagination">
+  <li><a href="#page1"></a></li>
+  <li><a href="#page2"></a></li>
+  <li><a href="#page3"></a></li>
+  <li><a href="#page4"></a></li>
+  <li><a href="#page5"></a></li>
+</ul>
+
+
+
+
+<script src="../../pagination.js"></script>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+<footer>Copyright &copy; Team Digitale</footer>
+
+</div>
+
+
+</body>
+</html>
