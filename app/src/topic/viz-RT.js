@@ -86,8 +86,12 @@ var y0 = d3.scalePoint()
 
 var yPos = new Array(data.length)
 
-//var distance = 80;
 
+//var distance = 80;
+var tipTool = d3.select("body")
+	.append("div")  // declare the tooltip div
+	.attr("class", "tooltip")              // apply the 'tooltip' class
+	.style("opacity", 0);
 
 
 g.append("g")
@@ -97,7 +101,44 @@ g.append("g")
     .selectAll("text")
     .attr("y", -3)
     .attr("x", -15)
-    .attr('font-size','15px');
+    .attr('font-size','15px')
+    .data(dataset)
+    .on('mouseover',  function(d,i) {
+
+			tipTool.transition()
+				.duration(200)
+				.style("opacity", 14)
+				.style("display", "block") ;
+			tipTool.html('<br>' + d.tweet + '<br>Numero di retweet:' + d.num_RT +
+			            '<br> Autore:' + d.user + '<br> Nr. follower '+d.user_followers + '<br>Nr. amici' + d.user_friends)
+				.style("right", '600px')//d3.event.pageX  + "px")
+				.style("top", "900px");
+            d3.select(this).style('fill','red');
+
+            function myfunction(d,i) {return 'rect.class'+i};
+
+			var classNameProva = myfunction(d,i);
+
+			d3.selectAll(classNameProva).style('fill','green').attr('height',16)
+    .attr('width',16).attr("transform", "translate(" + 0 + ",-1)");
+			})
+	 .on("mouseout", function(d,i){
+
+        //Mouse event
+                tipTool
+                    .transition()  //Opacity transition when the tooltip disappears
+                .duration(500)
+                .style("opacity", "0")
+                .style("display", "none");
+                d3.select(this).style('fill','black');
+                function myfunction(d,i) {return 'rect.class'+i};
+
+			    var classNameProva = myfunction(d,i);
+
+                d3.selectAll(classNameProva).style('fill','blue').attr('height',12)
+    .attr('width',12).attr("transform", "translate(" + 0 + ",+1)");
+                  //The tooltip disappears
+      });
 
 var w1 = '98%';
 var h1 = (h - 20)/data.length*10;
@@ -122,13 +163,17 @@ g.selectAll('.bar')
         return c;
       })
     .enter().append("rect")
-    .attr('class','bar')
+    .attr('class',function (d){return 'class'+d[1]})
     .attr('height',12)
     .attr('width',12)
     .attr('x',  function(d) {
           return xpoint + 20 + d[0]*2;})
-    .attr('y', function (d,i) {return y0(d[1]);});
+    .attr('y', function (d,i) {return y0(d[1]);})
+    .attr('fill','blue')
+    ;
     //.attr('y', function (d) {return y0(2);} )
+
+
 
 
 
