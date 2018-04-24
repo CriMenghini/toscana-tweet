@@ -1,0 +1,11 @@
+utente,num_tweet,num_foll,num_frien,num_pos,num_neg
+User1,1,1,1,1,1
+User2,2,5,3,3,8
+User3,3,4,2,8,2
+User4,4,2,5,2,9
+User5,5,3,4,6,3
+User6,6,6,7,5,4
+User7,7,7,6,4,5
+User8,8,9,8,9,6
+User9,9,9,10,7,7
+User10,10,10,9,10,10

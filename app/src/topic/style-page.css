@@ -204,3 +204,6 @@ body.page-5 #pagination li:nth-of-type(5) {
 }
 
 
+path.clicked {
+
+stroke: green}
