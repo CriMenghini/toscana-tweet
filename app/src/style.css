@@ -3,31 +3,30 @@ div.container {
     border: 1px solid gray;
 
 }
-
 header{
     padding: 8px;
     height: 80px;
-    background-color: RoyalBlue;
-}
+    width: 100%;
+    background-color: #66a3ff;
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+    position: fixed;
+    top: 1;
 }
 
 h1.titolo {
     color: white;
     vertical-align: middle;
     font-size:2em;
+
 }
 
 footer {
     padding: 0.8em;
     color: white;
-    background-color: RoyalBlue;
+    background-color: #66a3ff;
     clear: left;
     text-align: center;
+    font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
 }
 
 nav {
@@ -117,7 +116,7 @@ div.flex-container {
 
 
 .dropbtn {
-    background-color: RoyalBlue;
+    background-color: #66a3ff;
     padding: 8px;
     font-size: 16px;
 }
@@ -134,7 +133,7 @@ div.flex-container {
     display: none;
     right: 0;
     position: absolute;
-    background-color: #3862e0;
+    background-color: #4d94ff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -175,25 +174,31 @@ width: 30px;
 }
 .main section:nth-child(1) {
   background-color: #ffffff;
+  height: 850px;
 }
 .main section:nth-child(2) {
-  background-color: #e6f5ff;
+  background-color: #e6f0ff;
+  height: 450px;
 }
 .main section:nth-child(3) {
-  background-color: #ccebff;
+  background-color: #cce0ff;
+  height: 880px;
 }
 .main section:nth-child(4) {
-  background-color: #b3e0ff;
+  background-color: #b3d1ff;
+  height: 580px;
 }
 .main section:nth-child(5) {
-  background-color: #99d6ff;
+  background-color: #99c2ff;
+  height: 380px
 }
 .main section h1 {
   font-size: 38px;
   color: #fff;
   margin: 0;
-  padding: 50px 0 20px;
+  padding: 50px 0 10px;
   text-align: center;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
 
 #pagination {
@@ -207,7 +212,7 @@ width: 30px;
 #pagination li {
   position: relative;
   margin: 20px 0;
-  background: #fff;
+  background: grey;
   border-radius: 100%;
   width: 8px;
   height: 8px;
@@ -237,3 +242,5 @@ body.page-1 #pagination li:nth-of-type(1), body.page-2 #pagination li:nth-of-typ
           transform: scale(2);
 }
 }
+
+

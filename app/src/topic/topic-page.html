@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="style-page.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
+	<script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
+
 
 
 
@@ -44,13 +45,151 @@
 
 <div class="sidenav">
 
+
+
+	<div class="num-tweet">
+
+		<p style="margin-left:20px; margin-right:20px; text-align: justify;">
+		Scopri il numero di post scritti su questo argomento cliccando qui sotto!
+		</p>
+		<script>var w = '100%';
+				var h = 200;
+				var dataset = [{'num_tweet':100, 'num_hash':30, 'num_utenti':15}]
+
+				var svg = d3.select('.num-tweet')
+							.append("svg")
+							.attr("width", w)
+							.attr("height", h);
+
+				var g = svg.append("g").attr("transform", "translate(70,10)");
+
+
+ 				g.selectAll('rect-sidebar-tweet')
+				 .data(dataset)
+				 .enter()
+				 .append('rect')
+				 .attr("x", 0)
+                 .attr("y", 10)
+                 .attr("rx", 4)
+                 .attr("width", 120)
+                 .attr("height", 120)
+                 .attr('fill', '#66a3ff');
+
+                g.selectAll('text-sidebar-tweet')
+                 .data(dataset)
+				 .enter()
+				 .append('text')
+                 .attr("x", 10)
+				 .attr("y", 80)
+				 .attr("dy", ".2em")
+				 .attr('id','num-tot-tweet')
+				 .style('fill', 'white')
+				 .style('font-size','50px')
+                 .text(function (d) {return 'Qui'})
+                 .on('click', function (d) {document.getElementById("num-tot-tweet").innerHTML = d.num_tweet});
+		</script>
+	</div>
+
+	<div class="num-rt">
+
+		<p style="margin-left:20px; margin-right:20px; text-align: justify;">
+		Scopri il numero di utenti unici che hanno twittato relativamente a questo!!
+		</p>
+		<script>var w = '100%';
+				var h = 200;
+				var dataset = [{'num_tweet':100, 'num_hash':30, 'num_utenti':15}]
+
+				var svg = d3.select('.num-rt')
+							.append("svg")
+							.attr("width", w)
+							.attr("height", h);
+
+				var g = svg.append("g").attr("transform", "translate(70,10)");
+
+
+ 				g.selectAll('rect-sidebar-tweet')
+				 .data(dataset)
+				 .enter()
+				 .append('rect')
+				 .attr("x", 0)
+                 .attr("y", 10)
+                 .attr("rx", 4)
+                 .attr("width", 120)
+                 .attr("height", 120)
+                 .attr('fill', '#66a3ff');
+
+                g.selectAll('text-sidebar-tweet')
+                 .data(dataset)
+				 .enter()
+				 .append('text')
+                 .attr("x", 30)
+				 .attr("y", 80)
+				 .attr("dy", ".2em")
+				 .attr('id','num-tot-utenti')
+				 .style('fill', 'white')
+				 .style('font-size','50px')
+                 .text(function (d) {return 'Qui'})
+                 .on('click', function (d) {document.getElementById("num-tot-utenti").innerHTML = d.num_utenti});
+		</script>
+
+
+
+	</div>
+
+	<div class="num-hashtag">
+
+		<p style="margin-left:20px; margin-right:20px; text-align: justify;">
+		Scopri il numero di hashtag unici contenuti nei tweet!
+		</p>
+		<script>var w = '100%';
+				var h = 250;
+				var dataset = [{'num_tweet':100, 'num_hash':30, 'num_utenti':15}]
+
+				var svg = d3.select('.num-hashtag')
+							.append("svg")
+							.attr("width", w)
+							.attr("height", h);
+
+				var g = svg.append("g").attr("transform", "translate(70,10)");
+
+
+ 				g.selectAll('rect-sidebar-tweet')
+				 .data(dataset)
+				 .enter()
+				 .append('rect')
+				 .attr("x", 0)
+                 .attr("y", 10)
+                 .attr("rx", 4)
+                 .attr("width", 120)
+                 .attr("height", 120)
+                 .attr('fill', '#66a3ff');
+
+                g.selectAll('text-sidebar-tweet')
+                 .data(dataset)
+				 .enter()
+				 .append('text')
+                 .attr("x", 30)
+				 .attr("y", 80)
+				 .attr("dy", ".2em")
+				 .attr('id','num-tot-hashtag')
+				 .style('fill', 'white')
+				 .style('font-size','50px')
+                 .text(function (d) {return 'Qui'})
+                 .on('click', function (d) {document.getElementById("num-tot-hashtag").innerHTML = d.num_hash});
+		</script>
+
+
+
+	</div>
+
+
 </div>
 
   <div class="main">
 
 
       <section id="page1">
-
+		<h1 style="color:black"></h1>
         <h1 style="color:pink">Sentiment Anlysis</h1>
 
 		  <div class="viz-sentiment"></div>
@@ -63,6 +202,7 @@
 
 
   <section id="page2">
+	  <h1 style="color:black"></h1>
     <h1 style="color:black">Top 10 retweets</h1>
 
 		<div class="viz-retweet" style="margin-left:300px">
@@ -81,6 +221,7 @@
 
 
   <section id="page3">
+	  <h1 style="color:black"></h1>
     <h1 style="color:black">Top 10 users</h1>
 
 
@@ -96,21 +237,16 @@
   </section>
 
   <section id="page4">
+	  <h1 style="color:black"></h1>
     <h1 style="color:black">Lingua</h1>
 
-    <div class="viz-cloud" style="margin-left:300px">
-
-
-			<script src="cloud.js"></script>
-
-
-		</div>
 
 
 	  <script src="viz-lang.js"></script>
   </section>
 
   <section id="page5">
+	  <h1 style="color:black"></h1>
     <h1 style="color:black">Serie temporale numero di tweet</h1>
 	  <script src="viz-TS.js"></script>
 
@@ -135,24 +271,6 @@
 </ul>
 
 
-
-
-<script src="../../pagination.js"></script>
-
-<script>
-window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
 
 
 <footer>Copyright &copy; Team Digitale</footer>

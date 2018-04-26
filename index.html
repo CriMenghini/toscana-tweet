@@ -33,7 +33,7 @@
     </div>
   </div>
 
-  <h1 style="font-family: sans-serif; font-size: 2em; color: white;"> T(wi)scany </h1>
+  <h1 style=" font-size: 2em; color: white; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;"> T(wi)scany </h1>
 
 
 </header>
@@ -44,16 +44,47 @@
 
       <section id="page1">
 
+        <h1 style="color:black"></h1>
         <h1 style="color:black">Progetto</h1>
 
 
-        <p style="margin:80px">
+        <p  style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
 
         Ad oggi gran parte degli enti governativi possiedono un account social per comunicare con i cittadini. Pertanto,
           si prende in considerazione l'idea di costruire una applicazione che monitori, rispetto all'ente stesso,
           quali sono gli argomenti trattati ad esso relativi, quale sia il sentiment degli utenti e come, nel tempo, la
           base di utenti interessata all'ente si evolve.
 
+          Insieme alla Regione Toscana, si è intrapreso lo sviluppo di una Proof of Concept che verifichi la fattibilità di
+          tale progetto.
+
+		In particolare, il PoC è costituito da tre fasi principali. Nella prima si definisce la metodologia che verrà
+		applicata per l'identificazione delle "correnti" di tweet relative alla Regione. Quindi, una volta individuati
+		i tweet relativi ad una stessa tematica, si pone l'attenzione sulle singole. Nello specifico, si dà inizio alla
+		seconda fase, che consiste in un'analisi descrittiva che prevede, per ogni topic:
+
+          <ul  style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+              <li> L'identificazione della top 10 utenti che sono ordinati secondo diversi parametri;</li>
+              <li> L'identificazione dei tweet con più retweet e per ognuno, si fornisce una scheda dell'autore;</li>
+              <li> La percentuale di tweet positivi, negativi e neutri;</li>
+              <li> Statistiche descrittive sulle caratteristiche degli utenti (numero medio di followers etc.);</li>
+              <li> Il numero di tweet nel tempo.</li>
+          </ul>
+
+        <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+        La parte di analisi descrittiva può prevedere modifiche rispetto quello che è l'interesse della regione.
+        </p>
+
+        <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;"">
+        Una volta terminata la produzione degli script per effettuare tali analisi, si è proceduto con l'implementazione
+        della parte di front-end. In particolare, è stato sviluppato un prototipo di quella che potrebbe essere la web
+        app di monitoraggio.
+        </p>
+
+        <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+        Una volta conclusa la fase di PoC, si avvierà la collezione stream di dati e l'automazione dei
+        processi, che includono modelli e visualizzazioni.
+        </p>
         </p>
 
 
@@ -61,15 +92,17 @@
 
 
   <section id="page2">
+    <h1 style="color:black"></h1>
     <h1 style="color:black">Obiettivi</h1>
 
-    <p style="margin:80px">L'applicazione ha come obiettivo principale quello di fornire all'ente governativo un'idea
+    <p  style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;"">L'applicazione ha come obiettivo principale quello di fornire all'ente governativo un'idea
       rispetto alle tematiche trattate sui social network. Questo macro obiettivo si suddivide in tre punti precisi:
 
-    <ul style="margin:80px">
+    <ul  style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
       <li> Identificazione degli argomenti trattati sul social legati all'ente e ciò che lo rappresenta;</li>
       <li> Analisi del sentimento degli utenti rispetto agli argomenti individuati;</li>
-      <li> Studio degli utenti che twittano sugli argomenti relativi all'ente.</li>
+      <li> Analisi descrittiva del topic;</li>
+      <li> Analisi descrittiva degli utenti che hanno twittato relativamente al topic.</li>
     </ul>
     </p>
   </section>
@@ -77,17 +110,81 @@
 
 
   <section id="page3">
+    <h1 style="color:black"></h1>
     <h1 style="color:black">Esplora</h1>
 
-    <p style="margin:80px"> Clicca <a href="app/esplora.html">qui</a> per esplorare l'applicazione! </p>
+    <p  style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+          In questa sezione si illustra come navigare il prototipo dell'applicazione. Nella fattispecie, cliccando
+          <a href="app/esplora.html">qui</a> si raggiunge una pagina che chiede all'utente di scegliere cosa visualizzare.
+      <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+          In particolare, ci sono tre opzioni:
+            <ul  style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+              <li> L'analisi dei topic: che dopo una overview dei topi individuati permette di visualizzare l'analisi descrittiva dei singoli;</li>
+              <li> L'analisi degli utenti: che da una overview degli utenti più attivi e che permette di visualizzare le statistiche relative al signolo utente;</li>
+              <li> L'analisi degli hashtag: che propone una overview generale degli hashtag più presenti e delle statistiche su questi (es. hashtag con cui appare più frequentemente).</li>
+            </ul>
+      <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+          Al momento, dal punto di vista di front-end è stata sviluppata la parte dell'analisi dei topic. Pertanto, per il momento, si prosegue
+          con la descrizione della stessa.
+      </p>
+    <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+          Quando si sceglie di esplorare i topic individuati si aprirà una pagina che li descrive. In particolare, ogni
+          bolla rappresenta un topic (il cui nome è definito dall'hashtag più presente nei tweet appartenenti al topic).
+          Per ogni bolla, è possibile effettuare, con un click, lo zoom che permette di vedere gli hashtag che appartengono
+          ad uno stesso gruppo.
+      </p>
+
+    <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+          Al lato della rappresentazione, verrà inserito un menù che permetterà di selezionare il topic cui si è interessati.
+          La pagina che si raggiunge, attualmente in fase di sviluppo, è suddivisa in diverse sezioni ognuna delle quali
+          prevede l'esposizione delle analisi descrittive.
+      </p>
+
+    <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+          Infine, è inserito il riferimento a questo <a href="https://crimenghini.github.io/toscana_twitter">link</a> che
+      contiene la descrizione tecnica del modello utilizzato per individuare i cluster di tweet e dove, una
+          volta data la possibilità al browser di leggere script non sicuri, permette la visualizzazione degli stessi tweet.
+          Tale pagina web verrà integrata nell'applicazione.
+      </p>
+    </p>
+
+    </p>
   </section>
 
   <section id="page4">
+    <h1 style="color:black"></h1>
     <h1 style="color:black">Contribuisci</h1>
+    <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+          Il codice sorgente dell'applicazione (per il momento sito web) si trova nella seguente
+          <a href="https://github.com/CriMenghini/toscana-tweet/tree/master/app">repository</a> di Github. La repository
+          contiene dia il codice per il sito che per le visualizzazioni realizzate in d3. Essendo il progetto
+          in fase di sviluppo, ci piacerebbe che esperti in fron-end developing possano aiutarci a migliorare il design
+          dell'applicazione. All'interno della repository è contenuto un README che spiega come poter contribuire.
+
+          <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+              Invece, per quel che riguarda il codice sorgente delle analisi dei topic, questo è reperibile
+              <a href="https://github.com/CriMenghini/toscana-tweet/tree/master/notebooks">qui</a>. Anche in questo caso
+              sarà disponibile un README che riporta le informazioni relative ai vari notebook di lavoro.
+
+          </p>
+
+          <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+              Infine in <a href="https://github.com/teamdigitale/pa-in-ascolto">qui</a> repository si trova il codice relativo allo sviluppo del modello di Sentiment Analysis.
+              La repository contiene due branch separate.
+
+          </p>
+      </p>
+
   </section>
 
   <section id="page5">
+    <h1 style="color:black"></h1>
     <h1 style="color:black">Chi siamo</h1>
+    <p style="margin-right: 300px;margin-left: 300px; text-align: justify; font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;">
+Il progetto è stato sviluppato dal <a href="https://github.com/teamdigitale/pa-in-ascolto">Team per la Trasformazione Digitale</a>
+              della Presidenza del Consiglio dei Ministri.
+          </p>
+
   </section>
 </div>
 
@@ -99,26 +196,13 @@
   <li><a href="#page5"></a></li>
 </ul>
 
-<script src="/app/pagination.js"></script>
-  <script>
-window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
-
 
 <footer>Copyright &copy; Team Digitale</footer>
 
 </div>
+
+
+
 
 </body>
 </html>

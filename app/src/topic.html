@@ -6,9 +6,35 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
-	<script src="https://d3plus.org/js/d3plus.js"></script>
-	<script src="https://d3plus.org/js/d3.js"></script>
 
+	<style>
+
+		.node {
+		  cursor: pointer;
+		}
+
+		.node:hover {
+		  stroke: #000;
+		  stroke-width: 1.5px;
+		}
+
+		.node--leaf {
+		  fill: white;
+		}
+
+		.label {
+		  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+		  text-anchor: middle;
+		  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+		}
+
+		.label,
+		.node--root,
+		.node--leaf {
+		  pointer-events: none;
+		}
+
+	</style>
   <title>T(wi)scany Topics</title>
 
 </head>
@@ -44,25 +70,13 @@
 
 
 <div class="flex-container">
-
-	<script src="topics.js"></script>
+	<svg width="610" height="610" style="background-color:white;"></svg>
+	<script type="text/javascript" src="list-topic.js"></script>
+	<script src="topic.js"></script>
 
 </div>
 
-	<script>
-window.onscroll = function() {myFunction()};
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
 
 <footer>Copyright &copy; Team Digitale</footer>
 

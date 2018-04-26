@@ -1,11 +1,3 @@
-var width = 960;
-var height = 960;
-
-d3.select('.flex-container')
-               .append("svg")
-               .attr("width", width)
-               .attr("height",height);
-
 var svg = d3.select("svg"),
     margin = 20,
     diameter = +svg.attr("width"),
@@ -13,14 +5,14 @@ var svg = d3.select("svg"),
 
 var color = d3.scaleLinear()
     .domain([-1, 5])
-    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+    .range(["hsl(200,90%,100%)", "hsl(250,30%,40%)"])
     .interpolate(d3.interpolateHcl);
 
 var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
-d3.json("flare.json", function(error, root) {
+d3.json("../../data/output/bubble_input.json", function(error, root) {
   if (error) throw error;
 
   root = d3.hierarchy(root)
@@ -36,7 +28,9 @@ d3.json("flare.json", function(error, root) {
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
-      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+      .on("click", function(d,i) { if (focus !== d) {zoom(d), d3.event.stopPropagation();}
+                                   else {window.open(listTopic[i]);}});
+
 
   var text = g.selectAll("text")
     .data(nodes)
@@ -45,6 +39,8 @@ d3.json("flare.json", function(error, root) {
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
       .text(function(d) { return d.data.name; });
+
+
 
   var node = g.selectAll("circle,text");
 
