@@ -1,6 +1,6 @@
 var svg = d3.select('.viz-ts')
             .append("svg")
-            .attr("width", 960)
+            .attr("width", 900)
             .attr("height", 500);
 
 var margin = {top: 20, right: 20, bottom: 110, left: 40},

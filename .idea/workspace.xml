@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a2e2e9-5490-4698-997f-1cd3067f7280" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/topic/CIMIS_Station_125.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/topic/topic-page.html" afterPath="$PROJECT_DIR$/app/src/topic/topic-page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/topic/viz-TS.js" afterPath="$PROJECT_DIR$/app/src/topic/viz-TS.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topic-page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="topic-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/topic/topic-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="-607">
               <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -72,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viz-TS.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="viz-TS.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/topic/viz-TS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="89" column="26" lean-forward="true" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+            <state relative-caret-position="30">
+              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -141,8 +138,8 @@
       <find>header</find>
       <find>num-twe</find>
       <find>scale</find>
-      <find>svg</find>
       <find>path</find>
+      <find>svg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,8 +191,8 @@
         <option value="$PROJECT_DIR$/app/src/topic/data.json" />
         <option value="$PROJECT_DIR$/app/src/topic/viz-sentiment.js" />
         <option value="$PROJECT_DIR$/app/src/topic/CIMIS_Station_125.csv" />
-        <option value="$PROJECT_DIR$/app/src/topic/viz-TS.js" />
         <option value="$PROJECT_DIR$/app/src/topic/topic-page.html" />
+        <option value="$PROJECT_DIR$/app/src/topic/viz-TS.js" />
       </list>
     </option>
   </component>
@@ -617,17 +614,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/topic/viz-TS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" column="26" lean-forward="true" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/topic/topic-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="-607">
           <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -643,6 +632,14 @@
             <element signature="n#style#0;n#h1#1;n#section#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/topic/viz-TS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
