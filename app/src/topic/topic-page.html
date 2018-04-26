@@ -5,7 +5,20 @@
   <link rel="stylesheet" type="text/css" href="style-page.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
+<style>
 
+ .line {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+    }
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+
+</style>
 
 
 
@@ -241,7 +254,7 @@
 
   <section id="page4">
 	  <h1 style="color:black"></h1>
-    <h1 style="color:black">Lingua</h1>
+    <h1 style="color:black">Descrittive utenti - @todo</h1>
 
 
 
@@ -251,7 +264,15 @@
   <section id="page5">
 	  <h1 style="color:black"></h1>
     <h1 style="color:black">Serie temporale numero di tweet</h1>
-	  <script src="viz-TS.js"></script>
+
+	  <div class="viz-ts" style="margin-left:300px">
+
+
+			<script src="viz-TS.js"></script>
+
+
+		</div>
+
 
 
   </section>
