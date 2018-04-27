@@ -19,7 +19,7 @@ var info = ['num_tweet','num_foll','num_frien','num_pos','num_neg']
 
 
 // Load data
-d3.csv("data_user.csv", function(error, data) {
+d3.csv("../../../data/output/data_user.csv", function(error, data) {
       if (error) throw error;
 
       var parsedData = [];

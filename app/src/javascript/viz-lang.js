@@ -55,7 +55,7 @@ var zoom2 = d3.zoom()
         .attr("class", "contextRect")
         .attr("transform", "translate(" + margin2_.left + "," + margin2_.top + ")");
 
-d3.csv("CIMIS_Station_125.csv", type, function (error, data) {
+d3.csv("../../../data/output/CIMIS_Station_125.csv", type, function (error, data) {
   if (error) throw error;
 
   x_.domain(d3.extent(data, function(d) { return d.Date; }));

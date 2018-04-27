@@ -2,13 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a2e2e9-5490-4698-997f-1cd3067f7280" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pagination.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/esplora-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/list-topic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/parse_json_javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/style-esplora.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/styletopic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/CIMIS_Station_125.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/Team_Info.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/cloud.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/data_user.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/flare.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/prova-word-cloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/style-page.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/viz-RT.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/viz-TS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/viz-lang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/viz-sentiment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topic/viz-user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/topics.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/esplora.html" afterPath="$PROJECT_DIR$/app/esplora.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/esplora-style.css" afterPath="$PROJECT_DIR$/app/src/esplora-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/style.css" afterPath="$PROJECT_DIR$/app/src/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/topic.html" afterPath="$PROJECT_DIR$/app/src/topic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/topic/style-page.css" afterPath="$PROJECT_DIR$/app/src/topic/style-page.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/topic/topic-page.html" afterPath="$PROJECT_DIR$/app/src/topic/topic-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,39 +42,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="topic-page.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/topic/topic-page.html">
+      <file leaf-file-name="topic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/javascript/topic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="59" column="133" lean-forward="false" selection-start-line="59" selection-start-column="133" selection-end-line="59" selection-end-column="133" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#section#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#1;n#section#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#section#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#1;n#section#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#1;n#section#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#1;n#section#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#section#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#1;n#section#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-page.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/topic/style-page.css">
+      <file leaf-file-name="topic.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/topic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="384">
+              <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,11 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>clip-path</find>
-      <find>focus</find>
-      <find>brush</find>
-      <find>clip</find>
-      <find>Line_chart</find>
       <find>context</find>
       <find>xAxis</find>
       <find>yAxis</find>
@@ -100,6 +101,11 @@
       <find>font-fam</find>
       <find>drop</find>
       <find>menu</find>
+      <find>pagination</find>
+      <find>.js</find>
+      <find>.json</find>
+      <find>json</find>
+      <find>.csv</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,7 +144,6 @@
         <option value="$PROJECT_DIR$/app/src/topic/flare.json" />
         <option value="$PROJECT_DIR$/data/output/topic.js" />
         <option value="$PROJECT_DIR$/app/src/topics.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/src/style-esplora.css" />
         <option value="$PROJECT_DIR$/app/src/list-topic.js" />
         <option value="$PROJECT_DIR$/app/src/topic.js" />
@@ -149,11 +154,17 @@
         <option value="$PROJECT_DIR$/app/src/topic/viz-lang.js" />
         <option value="$PROJECT_DIR$/app/src/esplora-style.css" />
         <option value="$PROJECT_DIR$/app/src/style.css" />
-        <option value="$PROJECT_DIR$/app/esplora.html" />
         <option value="$PROJECT_DIR$/app/src/styletopic.css" />
-        <option value="$PROJECT_DIR$/app/src/topic.html" />
         <option value="$PROJECT_DIR$/app/src/topic/style-page.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/esplora.html" />
+        <option value="$PROJECT_DIR$/app/src/css/styletopic.css" />
         <option value="$PROJECT_DIR$/app/src/topic/topic-page.html" />
+        <option value="$PROJECT_DIR$/app/src/javascript/topic.js" />
+        <option value="$PROJECT_DIR$/app/src/javascript/viz-user.js" />
+        <option value="$PROJECT_DIR$/app/src/javascript/viz-TS.js" />
+        <option value="$PROJECT_DIR$/app/src/javascript/viz-lang.js" />
+        <option value="$PROJECT_DIR$/app/src/topic.html" />
       </list>
     </option>
   </component>
@@ -202,12 +213,7 @@
               <item name="toscana-tweet" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="topic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="toscana-tweet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="toscana-tweet" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,13 +289,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/topic.html" />
-    <entry file="file://$PROJECT_DIR$/users.html" />
-    <entry file="file://$PROJECT_DIR$/hashtag.html" />
-    <entry file="file://$PROJECT_DIR$/intro.html" />
-    <entry file="file://$PROJECT_DIR$/project.html" />
-    <entry file="file://$PROJECT_DIR$/top-rt.html" />
-    <entry file="file://$PROJECT_DIR$/collabora.html" />
     <entry file="file://$PROJECT_DIR$/src/collabora.html" />
     <entry file="file://$PROJECT_DIR$/src/style-topic.css" />
     <entry file="file://$PROJECT_DIR$/src/top-rt.html" />
@@ -492,17 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/esplora.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="15" column="125" lean-forward="false" selection-start-line="15" selection-start-column="125" selection-end-line="15" selection-end-column="125" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/esplora-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -527,10 +515,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/topic/style-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="35" column="133" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="133" />
+        <state relative-caret-position="257">
+          <caret line="190" column="18" lean-forward="false" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -561,46 +557,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/topic.html">
+    <entry file="file://$PROJECT_DIR$/app/src/css/styletopic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="59" column="152" lean-forward="false" selection-start-line="59" selection-start-column="152" selection-end-line="59" selection-end-column="152" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="669">
+          <caret line="143" column="9" lean-forward="false" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/topic/style-page.css">
+    <entry file="file://$PROJECT_DIR$/app/esplora.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="6" column="73" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/topic/topic-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="59" column="133" lean-forward="false" selection-start-line="59" selection-start-column="133" selection-end-line="59" selection-end-column="133" />
+        <state relative-caret-position="90">
+          <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/javascript/viz-user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/javascript/viz-TS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/javascript/viz-lang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="57" column="29" lean-forward="false" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/javascript/viz-RT.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="170" column="11" lean-forward="false" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/javascript/viz-sentiment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="7" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/javascript/topic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#1;n#section#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#1;n#section#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#1;n#section#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#1;n#section#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#1;n#section#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
