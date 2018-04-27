@@ -34,9 +34,18 @@ var zoom = d3.zoom()
         .x(function (d) { return x(d.Date); })
         .y(function (d) { return y(d.Air_Temp); });
 
+    var line3 = d3.line()
+        .x(function (d) { return x(d.Date); })
+        .y(function (d) { return y(d.Wind_Speed);});
+
+
     var line2 = d3.line()
         .x(function (d) { return x2(d.Date); })
         .y(function (d) { return y2(d.Air_Temp); });
+
+    var line4 = d3.line()
+        .x(function (d) { return x2(d.Date); })
+        .y(function (d) { return y2(d.Wind_Speed); });
 
     var clip = svg.append("defs").append("svg:clipPath")
         .attr("id", "clip")
@@ -82,12 +91,29 @@ d3.csv("CIMIS_Station_125.csv", type, function (error, data) {
     Line_chart.append("path")
         .datum(data)
         .attr("class", "line")
-        .attr("d", line);
+        .attr("d", line)
+        .style('stroke', 'red')
+        .style('fill','red');
+
+    Line_chart.append("path")
+        .datum(data)
+        .attr("class", "line-1")
+        .attr("d", line3)
+        .style('stroke', 'green')
+        .style('fill','green');
 
     context.append("path")
         .datum(data)
         .attr("class", "line")
-        .attr("d", line2);
+        .attr("d", line2)
+        .style('stroke', 'red');
+
+    context.append("path")
+        .datum(data)
+        .attr("class", "line-1")
+        .attr("d", line4)
+        .style('stroke', 'green')
+        .style('fill','green');
 
 
   context.append("g")
@@ -116,6 +142,7 @@ function brushed() {
   var s = d3.event.selection || x2.range();
   x.domain(s.map(x2.invert, x2));
   Line_chart.select(".line").attr("d", line);
+  Line_chart.select(".line-1").attr("d", line3);
   focus.select(".axis--x").call(xAxis);
   svg.select(".zoom").call(zoom.transform, d3.zoomIdentity
       .scale(width / (s[1] - s[0]))
@@ -127,6 +154,7 @@ function zoomed() {
   var t = d3.event.transform;
   x.domain(t.rescaleX(x2).domain());
   Line_chart.select(".line").attr("d", line);
+  Line_chart.select(".line-1").attr("d", line3);
   focus.select(".axis--x").call(xAxis);
   context.select(".brush").call(brush.move, x.range().map(t.invertX, t));
 }
@@ -134,5 +162,6 @@ function zoomed() {
 function type(d) {
   d.Date = parseDate(d.Date);
   d.Air_Temp = +d.Air_Temp;
+  d.Wind_Speed = +d.Wind_Speed;
   return d;
 }
