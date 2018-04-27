@@ -13,6 +13,7 @@ header{
     position: fixed;
     top: 1;
     width: 100%;
+    font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
 }
 
 
@@ -32,6 +33,7 @@ footer {
     position:relative;
     z-index:1;
 }
+
 
 div.flex-container {
     display:flex;

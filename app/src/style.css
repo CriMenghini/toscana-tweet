@@ -8,7 +8,7 @@ header{
     height: 80px;
     width: 100%;
     background-color: #66a3ff;
-
+    font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
     position: fixed;
     top: 1;
 }
